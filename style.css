@@ -6,28 +6,24 @@
 
 .headerContainer {
     height: 50px;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    z-index: 99;
 }
 
 .headerContainer a {
     text-decoration-line: none;
-    color: black;
+    color: #FFFFFF ;
+    font-weight: bold;
 }
 
 .headerMenu {
-    background: white;
-    border: 2px solid black;
-    white-space: nowrap;
-    position: absolute;
-    top: 60px;
-    left: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    padding: 20px;
-    width: 100px;
-    /* transform: translateX(-95px); */
-    transition: 0.5s;
+    justify-content: space-around;
+    height: 100%;
+    background: #516477;
 }
 
 .open {
@@ -37,6 +33,7 @@
 /*accueil*/
 
 #homeContainer {
+    padding-top: 50px;
     height: auto;
     display: flex;
     justify-content: space-around;
