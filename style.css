@@ -443,7 +443,9 @@ a.button2:hover {
         flex-direction: column;
         justify-content: center;
         margin: O;
+        padding-top: 80px;
     }
+
     #homeContainer .titre .et {
         transform: none;
     }
