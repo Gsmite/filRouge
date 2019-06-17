@@ -139,7 +139,8 @@
     width: 253px;
     height: 179px;
     text-align: justify;
-    transform: translate(130%, 150%)
+    transform: translate(130%, 150%);
+    font-size: 18px;
 }
 
 #federationContainer .partie1 .para2 {
@@ -171,6 +172,7 @@
     height: 256px;
     text-align: justify;
     transform: translate(0, 70%);
+    font-size: 18px;
     z-index: 3;
 }
 
@@ -213,6 +215,7 @@
     height: 221px;
     text-align: justify;
     transform: translate(75%, 10%);
+    font-size: 18px;
     z-index: 3;
 }
 
@@ -237,7 +240,7 @@
 #disciplines h1 {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    align-self: center;
+    align-self: flex-start;
 }
 
 #disciplines .video {
