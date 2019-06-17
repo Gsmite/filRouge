@@ -11,7 +11,10 @@
     padding: 5px;
     z-index: 99;
 }
-
+.headerContainer i{
+    color: #FFFFFF;
+    font-size: 25px;
+}
 .headerContainer a {
     text-decoration-line: none;
     color: #FFFFFF ;
@@ -26,9 +29,7 @@
     background: #516477;
 }
 
-.open {
-    transform: translateX(0px);
-}
+
 
 /*accueil*/
 
@@ -124,7 +125,7 @@
 
 #federationContainer .histoire .partie1 h2 {
     background: #516477;
-    align-self: flex-start;
+    align-self: center;
     margin-top: 20px;
     padding: 15px;
 }
@@ -236,13 +237,13 @@
 #disciplines h1 {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    align-self: flex-start;
+    align-self: center;
 }
 
 #disciplines .video {
     display: flex;
     text-align: center;
-    height: 680px;
+    height: 690px;
     width: 90%;
 }
 
@@ -389,8 +390,40 @@ a.button2:hover {
 }
 
 @media screen and (max-width:600px) {
+    
+    .headerContainer {
+       height: auto;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0;
+      position: none;
+    }
+
+   .headerContainer i {
+       margin-left: 0;
+   }
+
+   .headerContainer .headerMenu {
+       height: auto;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+        
+
+   }
+
+   .headerContainer .headerMenu a {
+       margin-right: 0;
+       padding: 5px;
+   }
     #homeContainer {
         width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -406,6 +439,7 @@ a.button2:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: O;
     }
     #homeContainer .titre .et {
         transform: none;
